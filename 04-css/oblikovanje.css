@@ -37,8 +37,9 @@ h2 {margin-top: 2em; border-top: 1px solid #AAAAAA; padding-top: 0.5em}
 
 #uvod{padding: 2em; background-color: rgb(51, 0, 102, 0.1); }
 
-.slika {border: 5px solid red; font-size: 0.9em; width: 40%; text-align: left}
+.slika {border: 5px solid red; font-size: 0.9em; width: 40%; text-align: left; float: right; margin-left: 2em; border-radius: 50%}
 
 .slika img {width: 100%; height: auto}
 
-.slika {float: right; margin-left: 2em}
+.slika p:last-child {font-size: 0.8em; background-color: #cc0000}
+
